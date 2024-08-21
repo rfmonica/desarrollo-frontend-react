@@ -1,7 +1,7 @@
 import { SET_NAME_MODULE } from "./defaultTypes";
 
 const initialState = {
-  name: "John Doe",
+  name:'',
 
 };
 
@@ -15,4 +15,6 @@ const defaultReducer = (state=initialState,action) =>{
             return state;
     }
 };
+
+export default defaultReducer;
 
