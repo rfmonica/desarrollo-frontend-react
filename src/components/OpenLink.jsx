@@ -1,14 +1,17 @@
-const OpenLink=() =>{
-    return(
+const OpenLink =({title,url}) => {
+    return(  
         <div>
-            <a
-            className="App-Link"
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer">
-                {Title}
-
-            </a>
+              <a
+          className="App-link"
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {title}
+        </a>
         </div>
-    )
-}
+    );
+
+};
+
+export default OpenLink;
